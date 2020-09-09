@@ -1,12 +1,14 @@
-# File Access Modes
-# Read Only (‘r’) : Open text file for reading. 
-#                   If the file does not exists, raises I/O error. 
-# Write Only (‘w’) : Open the file for writing. 
-#                    For existing file, the data is truncated and over-written. 
-#                    Creates the file if the file does not exists.
-# Append Only (‘a’) : Open the file for writing. 
-#                     The file is created if it does not exist.
-#                     The data being written will be inserted at the end, after the existing data.
+"""
+Scope:
+1) Begin with a try block
+2) Write the code to open a file
+3) Next, write a catch block
+4) Print a message to display when the file cannot be opened inside the catch block.
+5) Use another try-except block inside the main try block
+6) Try to write something into the opened file and print the success message
+7) Catch the error if cannot write into the file and print the failure message
+8) Make use of finally block to close the file regardless of writting into the file 
+"""
 
 try:
     #if file exists, then this block executes

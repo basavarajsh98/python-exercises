@@ -1,3 +1,13 @@
+"""
+Scope:
+1) Write a function which takes the side lengths and the angle to determine the shape
+ - Make use of if, elif and else statements to set the conditions for shape
+ - print the shape message accordingly
+2) Input all the four sides of a shape and an internal angle 
+3) Convert the input values to float
+4) Make the function call with converted side lengths and angle as the arguments.
+"""
+
 # Function to determine what shape does the sides and angle make
 def get_shape(s1,s2,s3,s4,angle):
     if( ((s1+s2+s3+s4)/4 == s1) & (angle == 90)):

@@ -1,6 +1,19 @@
+"""
+Scope:
+1) Input a number
+2) Store it in a temporary variable to make comparison
+3) Define and initialize a variable to store reversed number
+4) Use while loop to:
+ - extract the last digit from the number
+ - reverse the digit position
+ - redefine the number without the digit extracted in the current iteration.
+5) Compare the reversed number and the input number
+6) Print the output messages accordingly.
+"""
+
 #input a number
 number=int(input("Enter a number:"))
-#store the number in a temporary variable to make comparison
+#store the number in a temporary variable
 temp=number
 #initialse the variable which stores the reversed number 
 reverse=0

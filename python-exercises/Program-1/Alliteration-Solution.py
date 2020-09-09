@@ -1,3 +1,15 @@
+"""
+Scope:
+1)Input the letter
+2)Convert the input letter to lowercase
+3)Input the sentence
+4)Convert the input sentence to lowercase
+5)Extract words from sentence
+6)Initialize the flag
+6)Check if any word in the sentence doesn't start with the inputted letter and set the flag accordingly
+7)Write the conditions to print the score based on the number of words in the sentence
+"""
+
 #input the letter
 letter = input("Enter the letter: ")
 #convert the input letter to lowercase
@@ -8,11 +20,11 @@ sentence = input("Enter the sentence: ")
 sentence = sentence.lower()
 # to extract words from sentence
 words = sentence.split() 
-flag=1
+flag = 1
 for word in words:
     # set the flag value to 0 if any word in the sentence doesn't start with the inputted letter
-    if word.startswith(letter)==False:
-        flag=0
+    if word.startswith(letter) == False:
+        flag = 0
 # The sentence should contain minimum 3 words and maximum any number of words.
 if (flag == 1 & (len(words) >= 3)):
     if len(words) == 3:
