@@ -1,22 +1,15 @@
-George and Tintin plays by telling numbers.  
-George says a number to Tintin.  
-Tintin should first reverse the number and check if it is same as the original.  
-If yes, Tintin should say “Palindrome”. If not, he should say “Not a Palindrome”.
+# Number-Palindrome
 
+George and Tintin plays by telling numbers. George says a number to Tintin. Tintin should first reverse the number and check if it is same as the original. If yes, Tintin should say “Palindrome”. If not, he should say “Not a Palindrome”.
 
-Sample Input 1 :
-
+###### Sample Input 1 :
 21212
 
-Sample Output 1 :
-
+###### Sample Output 1 :
 Palindrome
 
-
-Sample Input 2 :
-
+###### Sample Input 2 :
 6186
 
-Sample Output 2 :
-
+###### Sample Output 2 :
 Not a Palindrome
