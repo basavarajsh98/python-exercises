@@ -1,4 +1,4 @@
-# Alliteration
+# Exercise 1
 
 Tina and Louis played a game where one has to tell a letter and the other has to 
 form a sentence with all the words starting with the same letter irrespective of cases. 

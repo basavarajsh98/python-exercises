@@ -1,4 +1,4 @@
-# Exception
+# Exercise 3
 
 Andrew wants to teach how to open a file and write something in it to his son. Help him do this by writing a python program.
 

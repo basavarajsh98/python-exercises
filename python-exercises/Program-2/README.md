@@ -1,4 +1,4 @@
-# Anagram
+# Exercise 2
 
 Write a program to get two strings as input from the user. The program should check if both the strings contains the same letters.
 
